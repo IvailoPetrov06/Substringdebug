@@ -13,7 +13,7 @@ for (int i = 0; i < text.Length; i++)
 
         int endIndex = jump + 1;
 
-        if (endIndex + i > text.Length)
+        if (endIndex + i >= text.Length)
         {
             endIndex = text.Length - i;
         }
