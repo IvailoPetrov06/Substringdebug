@@ -26,5 +26,5 @@ for (int i = 0; i < text.Length; i++)
 
 if (!hasMatch)
 {
-    Console.WriteLine("no");
+    Console.WriteLine("No");
 }
